@@ -1,0 +1,23 @@
+.home-nav {
+    text-decoration: none;
+  }
+  
+  #new-url {
+    background-color: darkblue;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  #new-url:hover {
+    background-color: rgb(15, 185, 185);
+    cursor: pointer;
+  }
+  
+  /* when I click new-url */
+  #new-url:active {
+    border: 2px solid rgb(0, 80, 80);
+  }
+  
+  #new-url:active > i {
+    background-color: chartreuse;
+  }
